@@ -21,3 +21,6 @@ desktop.ini
 # Logs and temp files
 *.log
 *.tmp
+
+# Local screenshot drop folder
+capturas/

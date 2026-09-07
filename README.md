@@ -2,15 +2,21 @@
 
 **A minimalist, frameless Pomodoro study timer for Windows — with break schedules that adapt to how long you actually plan to study, from 1 to 8 hours.**
 
+<p align="center">
+  <img src="docs/images/screenshot-main.png" alt="LitchModoro main screen" width="300">
+</p>
+
 Built with Java 21 and JavaFX 21.0.5. No account, no telemetry, no cloud — a small calm window that gets out of your way.
 
 The UI is a single rounded, borderless card: a custom title bar, a big monospace countdown inside a green progress ring, three controls (start/pause, skip, stop), and a slide-in panel where you pick your session length and preview the exact focus/break plan before you start.
 
 ## Screenshots
 
-<!-- Screenshots coming soon: main focus screen, break state, and the preset panel with plan preview.
-     Drop images under docs/screenshots/ and reference them here, e.g.:
-     ![Focus screen](docs/screenshots/focus.png) -->
+<p align="center">
+  <img src="docs/images/screenshot-main.png" alt="LitchModoro main screen" width="340">
+</p>
+
+The main focus screen: a frameless window with a custom title bar, the countdown inside a green progress ring, and the start/pause, skip, and stop controls. The whole UI is rendered by JavaFX — the title bar is a regular scene node, not an OS decoration.
 
 ## Features
 
