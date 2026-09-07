@@ -1,0 +1,201 @@
+.root {
+    -fx-font-family: "Inter", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+}
+
+.window-root {
+    -fx-background-color: transparent;
+    -fx-padding: 16;
+}
+
+.app-container {
+    -fx-background-color: #FAFAFA;
+    -fx-background-radius: 16;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.18), 24, 0.0, 0, 4);
+}
+
+.title-bar {
+    -fx-padding: 8 8 0 16;
+    -fx-alignment: center-left;
+}
+
+.title-bar-text {
+    -fx-font-size: 11px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #9E9E9E;
+    -fx-letter-spacing: 2px;
+}
+
+.title-bar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9E9E9E;
+    -fx-font-size: 13px;
+    -fx-padding: 4 8 4 8;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.title-bar-button:hover {
+    -fx-background-color: #ECECEC;
+    -fx-text-fill: #111111;
+}
+
+.close-button:hover {
+    -fx-background-color: #3E8E5A;
+    -fx-text-fill: #FAFAFA;
+}
+
+.main-screen {
+    -fx-padding: 8 32 32 32;
+    -fx-alignment: center;
+}
+
+.segment-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #9E9E9E;
+    -fx-letter-spacing: 3px;
+}
+
+.time-label {
+    -fx-font-family: "JetBrains Mono", "SF Mono", "Consolas", "Monospaced";
+    -fx-font-size: 52px;
+    -fx-font-weight: 300;
+    -fx-text-fill: #111111;
+}
+
+.control-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #111111;
+    -fx-font-size: 13px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 12;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+.control-button:hover {
+    -fx-border-color: #3E8E5A;
+    -fx-text-fill: #3E8E5A;
+    -fx-translate-y: -1;
+}
+
+.control-button:pressed {
+    -fx-translate-y: 1;
+}
+
+.control-button:disabled {
+    -fx-opacity: 0.4;
+    -fx-translate-y: 0;
+}
+
+.primary-button {
+    -fx-background-color: #3E8E5A;
+    -fx-text-fill: #FAFAFA;
+    -fx-border-color: transparent;
+}
+
+.primary-button:hover {
+    -fx-text-fill: #FAFAFA;
+    -fx-border-color: transparent;
+}
+
+.icon-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9E9E9E;
+    -fx-font-size: 14px;
+    -fx-padding: 2 8 2 8;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.icon-button:hover {
+    -fx-background-color: #ECECEC;
+    -fx-text-fill: #111111;
+}
+
+.preset-overlay {
+    -fx-background-color: transparent;
+}
+
+.overlay-scrim {
+    -fx-background-color: rgba(17, 17, 17, 0.22);
+    -fx-background-radius: 16;
+}
+
+.preset-panel {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 16 0 0 16;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 0 1;
+    -fx-padding: 16 16 24 16;
+}
+
+.preset-panel-title {
+    -fx-font-size: 11px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #9E9E9E;
+    -fx-letter-spacing: 2px;
+}
+
+.panel-close-button {
+    -fx-padding: 0 8 2 8;
+}
+
+.preset-option {
+    -fx-background-color: transparent;
+    -fx-text-fill: #111111;
+    -fx-font-size: 12px;
+    -fx-padding: 8 0 8 0;
+    -fx-background-radius: 10;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+.preset-option:hover {
+    -fx-border-color: #3E8E5A;
+    -fx-text-fill: #3E8E5A;
+}
+
+.preset-option:selected {
+    -fx-background-color: rgba(62, 142, 90, 0.08);
+    -fx-border-color: #3E8E5A;
+    -fx-text-fill: #3E8E5A;
+}
+
+.preset-preview {
+    -fx-font-size: 12px;
+    -fx-text-fill: #111111;
+}
+
+.panel-error {
+    -fx-font-size: 11px;
+    -fx-text-fill: #C0392B;
+}
+
+.field-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #9E9E9E;
+}
+
+.custom-field {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #111111;
+    -fx-font-size: 12px;
+    -fx-padding: 8 8 8 8;
+    -fx-background-radius: 8;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+}
+
+.custom-field:focused {
+    -fx-border-color: #3E8E5A;
+}
+
+.custom-field.input-error {
+    -fx-border-color: #C0392B;
+}
